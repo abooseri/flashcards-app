@@ -26,7 +26,7 @@ axios.get('https://opentdb.com/api.php?amount=10')
     }, [])
 
     return (
-        <div>
+        <div className="container">
             <FlashcardList flashcards={flashcards} />
         </div>
     )
